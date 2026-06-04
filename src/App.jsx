@@ -1,7 +1,7 @@
 import { useMemo, useRef, useState } from "react";
 import "./App.css";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://web-production-1a3eb.up.railway.app";
+const API_BASE_URL = "https://web-production-1a3eb.up.railway.app";
 
 function App() {
   const [messages, setMessages] = useState([
